@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/*
+  Ce fichier doit contenir uniquement les imports des autres fichiers SASS
+  En respectant bien l'ordre des imports
+*/
+/*
+  🎨 Variables de thème
+  Ces variables permettent de centraliser les couleurs, la typographie et les espacements.
+  Elles facilitent les modifications et garantissent la cohérence du design.
+*/
+/*
+  🧱 Styles de base
+  Utilisation des variables, imbrication et mixin pour les généralités.
+*/
+body {
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  background-color: #3498db;
+  color: white;
+  padding: 1em;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  padding: 0;
+}
+.main-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.main-nav ul li a:hover {
+  color: #2ecc71;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 1em;
+  margin: auto;
+}
+
+.main-footer {
+  text-align: center;
+}
+
+.project-card {
+  padding: 1em;
+  border: 1px solid #8bc4ea;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 1em 0;
+}/*# sourceMappingURL=style.css.map */

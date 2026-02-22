@@ -1,0 +1,13 @@
+/*
+  🎨 Variables de thème
+  Ces variables permettent de centraliser les couleurs, la typographie et les espacements.
+  Elles facilitent les modifications et garantissent la cohérence du design.
+*/
+$primary-color: #3498db; // Couleur principale (ex : header, boutons)
+$secondary-color: #2ecc71; // Couleur secondaire (ex : hover)
+$text-color: #333; // Couleur du texte principal
+$text-secondary-color: white; // Couleur du texte secondaire
+$page-background-color: #f9f9f9;// Couleur fond page
+$font-stack: 'Segoe UI', sans-serif; // Police par défaut
+$spacing-unit: 1em; // Unité d'espacement utilisée pour margin/padding
+$container-width: 1200px;// Largeur maximale du contenu

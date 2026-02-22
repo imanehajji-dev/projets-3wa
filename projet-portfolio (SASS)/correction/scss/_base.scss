@@ -1,0 +1,55 @@
+/*
+  🧱 Styles de base
+  Utilisation des variables, imbrication et mixin pour les généralités.
+*/
+body {
+  font-family: $font-stack;
+  color: $text-color;
+  background-color: $page-background-color;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  background-color: $primary-color;
+  color: $text-secondary-color;
+  padding: $spacing-unit;
+}
+
+.main-nav {
+  ul {
+    list-style: none;
+    display: flex;
+    gap: $spacing-unit;
+    padding: 0;
+
+    li {
+      a {
+        color: $text-secondary-color;
+        text-decoration: none;
+
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}
+
+.container {
+  max-width: $container-width;
+  padding: $spacing-unit;
+  margin: auto;
+}
+
+.main-footer {
+  text-align: center;
+}
+
+.project-card {
+  padding: $spacing-unit;
+  border: 1px solid lighten($primary-color, 20%);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: $spacing-unit 0;
+}
